@@ -2,7 +2,7 @@
   "name": "foundry_zh-tw",
   "title": "Translation: 中文 [Core]",
   "description": "為 FVTT 核心系统加了正體中文。",
-  "version": "v0.1.",
+  "version": "v0.1.8",
   "minimumCoreVersion": "0.6.6",
   "compatibleCoreVersion": "0.8.0",
   "coreTranslation": true,
