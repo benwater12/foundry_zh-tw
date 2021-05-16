@@ -17,7 +17,7 @@ jobs:
       - name: Build project
         id: build-zip
         run: |
-          zip foundry_chn.zip module.json cn.json
+          zip foundry_zh-tw.zip module.json zh-tw.json
       - name: Get Version
         id: get-version
         shell: bash
@@ -32,6 +32,6 @@ jobs:
           tag_name: ${{ steps.get-version.outputs.version }}
           files: |
             module.json
-            foundry_chn.zip
+            foundry_zh-tw.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
